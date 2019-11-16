@@ -28,9 +28,6 @@ private:
 
 
 
-
-
-
 void testprint()
 {
 
@@ -80,9 +77,9 @@ void test_fwrite(const std::string& file, int n  = 10000, int type = 0) {
 int main() {
 
     int n = 1000;
-//    test_fwrite("1&N.txt",n,0);
-//    test_fwrite("N&1.txt",n,1);
-//    std::cout << "**************" <<std::endl;
+    test_fwrite("1&N.txt",n,0);
+    test_fwrite("N&1.txt",n,1);
+    std::cout << "**************" <<std::endl;
 //
 //
 //    n = 10000;
