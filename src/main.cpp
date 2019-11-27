@@ -80,6 +80,7 @@ int main() {
     test_fwrite("1&N.txt",n,0);
     test_fwrite("N&1.txt",n,1);
     std::cout << "********123456******" <<std::endl;
+
 //
 //
 //    n = 10000;
