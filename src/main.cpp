@@ -79,7 +79,8 @@ int main() {
     int n = 1000;
     test_fwrite("1&N.txt",n,0);
     test_fwrite("N&1.txt",n,1);
-    std::cout << "********master5******" <<std::endl;
+    std::cout << "********dev5******" <<std::endl;
+
 
 //
 //
